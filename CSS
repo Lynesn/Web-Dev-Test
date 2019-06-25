@@ -1,5 +1,5 @@
 .container {  
-    width: 50%;  
+    width: 60%;  
     height: 100px;  
     background-color: #c5cae9;  
     text-align: left;
@@ -39,4 +39,34 @@ table th {
 .row {
   background-color: blue;
   color: white;
+}
+input[type=text], select {
+  width: 70%;
+  padding: 12px;
+  box-sizing: border-box;
+  }
+input[type=email], select {
+ width: 70%;
+ padding: 12px;
+ box-sizing: border-box; 
+}
+
+.fcontainer {
+  border-radius: 5px;
+  width: 60%;
+  height: 75%;
+  color: white;
+  background-color: black;
+  padding: 20px;
+ 
+  }
+ div.content {
+   max-width: 500px;
+   margin: auto;
+   padding: 10px;
+   text-align: left;
+   font-size: 15px;
+}
+div.title{
+  font-size: 30px;
 }
